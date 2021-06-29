@@ -5,6 +5,7 @@ C++ Programs
 This repository contains projects built using C++. Below is a brief description of each project.
 
 Project 1: This program simulates Langston's Ant.
+
   Gameflow:
   The rule of Langton’s Ant is very simple: the ant is placed onto the board that is filled with white spaces, and starts moving forward. 
   For each step forward,the Langton’s ant will follow 2 rules:
