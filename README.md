@@ -104,6 +104,9 @@ Program 5: Wrote a game called Die Hard OKC. Character moves through linked spac
   before locating the security codes as there are armed guards, hostages to save and interact with as well as boobie traps 
   throughout the tower.
   
+  <img width="488" alt="Screen Shot 2021-06-29 at 6 25 16 PM" src="https://user-images.githubusercontent.com/37819992/123879996-622c4900-d907-11eb-99b3-f5f04bf2dd72.png">
+
+  
   If all three security codes are found before time expires, John saves the building and the people. If John does not find all
   three security codes in time or perishes before doing so, the game ends with the building exploding along with everyone who
   remained inside.
