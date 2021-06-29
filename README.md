@@ -71,5 +71,26 @@ Project 3: Wrote a fantasy combat game using classes and polymorphism.
 
 
 Project 4: Wrote a game to run a tournament between 2 teams of fighters. Developed containers to hold characters using a linked list structure.
+
+   Gameflow: The game is a one user two player game, so one user should be able to play and setup fighters
+   for both teams.
+   
+   When the game begins, the user us prompted to enter the number of fighters for both teams. After that,
+   for each fighter , the game should ask the user to choose the type of character, and enter a name for 
+   the fighter. 
+   
+   After user supplies a lineup of fighters for both teams, the tournament begins. The fighters fight the
+   same way as project 3 (above). The winner of each fight gets put at the back of their lineup, while the
+   loser goes to the top of the loser container.
+   
+   If a fighter won, it may have taken damage. The game will restore some percentage of the damage they took
+   when they get back in line. 
+   
+   The tournament finishes when one of the teams does not have anymore fighters to fight. When the game does
+   end, the results are printed for user to see/review.
+   
+   User is also asked after the tournament if:
+   1) Play again
+   2) Exit Game
       
 Program 5: Wrote a game called Die Hard OKC. Character moves through linked spaces to find a bomb before the building explodes. 
