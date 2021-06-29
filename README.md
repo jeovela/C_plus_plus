@@ -93,21 +93,20 @@ Project 4: Wrote a game to run a tournament between 2 teams of fighters. Develop
    1) Play again
    2) Exit Game
       
-Program 5: Wrote a game called Die Hard OKC. Character moves through linked spaces to find a bomb before the building explodes. 
+Program 5: Wrote a game called Die Hard OKC. Character moves through linked spaces to diffuse a bomb before the building explodes. 
 
   Gameflow: User (aka John McCain) must traverse the downtown Devon Energy building in an attempt to locate all 3 security codes necessary 
-  to diffuse the bomb before time expires (15 hours). 
+  to diffuse the bomb located in the parking garage before time expires (15 hours). 
   
   John begins his quest in the parking garage where he is then prompted with 9 selections ranging from exploring the current room
-  to moving to another room within the building. As John searches the room, each security code, if found is stored in his container
-  until all three are found. However each search of an area deducts 1 hour from the time. John must also be careful and not perish 
-  before locating the security codes as there are armed guards, hostages to save and interact with as well as boobie traps 
+  to moving to another room within the building. As John searches the room for each security code, if a code is found, it is stored in his container
+  until all three are found. However each search of a room  deducts 1 hour from the time. John must also be careful and not perish 
+  before locating all 3 security codes as there are armed guards, hostages to save and interact with as well as boobie traps 
   throughout the tower.
   
   <img width="488" alt="Screen Shot 2021-06-29 at 6 25 16 PM" src="https://user-images.githubusercontent.com/37819992/123879996-622c4900-d907-11eb-99b3-f5f04bf2dd72.png">
-
   
   If all three security codes are found before time expires, John saves the building and the people. If John does not find all
-  three security codes in time or perishes before doing so, the game ends with the building exploding along with everyone who
+  three security codes in time or perishes before doing so, the game ends with the building exploding along with everyone else who
   remained inside.
   
