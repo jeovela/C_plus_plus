@@ -94,3 +94,17 @@ Project 4: Wrote a game to run a tournament between 2 teams of fighters. Develop
    2) Exit Game
       
 Program 5: Wrote a game called Die Hard OKC. Character moves through linked spaces to find a bomb before the building explodes. 
+
+  Gameflow: User (aka John McCain) must traverse the downtown Devon Energy building in an attempt to locate all 3 security codes necessary 
+  to diffuse the bomb before time expires (15 hours). 
+  
+  John begins his quest in the parking garage where he is then prompted with 9 selections ranging from exploring the current room
+  to moving to another room within the building. As John searches the room, each security code, if found is stored in his container
+  until all three are found. However each search of an area deducts 1 hour from the time. John must also be careful and not perish 
+  before locating the security codes as there are armed guards, hostages to save and interact with as well as boobie traps 
+  throughout the tower.
+  
+  If all three security codes are found before time expires, John saves the building and the people. If John does not find all
+  three security codes in time or perishes before doing so, the game ends with the building exploding along with everyone who
+  remained inside.
+  
