@@ -50,11 +50,25 @@ Different types of animals cost different prices, have different maintenace cost
   At the end of each day, ask user if they want to continue to playing or end the game.
   If the user runs out of money, the user is notified of deliquent funds and the game ends.
 
-
-
-
-
 Project 3: Wrote a fantasy combat game using classes and polymorphism.
+
+  Gameflow: Game universe contains Vampire, Barbarian, Blue Men, Medusa and Harry Potter. Each character has
+  attributes of attack, defense, armor and strength points. They also have their own characteristics and
+  special abilites.
+  
+  Each combat is between 2 characters and ends with one character dying. Each round consists of two attacks,
+  one for each character. For each attach, attacher and defender both generate dice rolls. The type and
+  number of dice determines move. 
+  
+  The actual damage inflicted from the attacher onto the defender is calculated as follows:
+  Damage = attacker's role - defender's role - defender's armor
+  
+  Then the value of that damage is subtracted from the defenders strength. 
+  
+  After combat is over, user is asked to:
+  1) Play again
+  2) Exit Game
+
 
 Project 4: Wrote a game to run a tournament between 2 teams of fighters. Developed containers to hold characters using a linked list structure.
       
