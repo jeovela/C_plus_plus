@@ -95,7 +95,7 @@ Different types of animals cost different prices, have different maintenace cost
       
 ***Program 5: Wrote a game called Die Hard OKC. Character moves through linked spaces to diffuse a bomb before the building explodes. 
 
-  Gameflow: User (aka John McCain) must traverse the downtown Devon Energy building in an attempt to locate all 3 security codes necessary 
+  Gameflow: User (aka John McClane) must traverse the downtown Devon Energy building in an attempt to locate all 3 security codes necessary 
   to diffuse the bomb located in the parking garage before time expires (15 hours). 
   
   John begins his quest in the parking garage where he is then prompted with 9 selections ranging from exploring the current room
