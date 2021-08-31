@@ -18,14 +18,14 @@ This repository contains projects built using C++. Below is a brief description 
 Different types of animals cost different prices, have different maintenace costs and different ROI at the end of each day.
 
   Gameflow: 
-  Player begins with a specific amount of money in the bank, e.g. $100,000 dollars. at the start, the user
+  Player begins with a specific amount of money in the bank, e.g. $100,000 dollars. At the start, the user
   needs to buy three types of animals to start the business. Each type of animal should have a qty of
   either 1 or 2. For each animal bought, the cost is automatically subtracted by the bank. All newly
   bought animals are 1 day old.
   
   Each turn is a "day". At the beginnig of the day, all animals increase age by 1 day, and the user needs
   to pay the feeding cost for each animal. Feeding is required so animals do not die. After the feeding
-  cost is subtracted from the bank, a one of three randomized event occurs during the day.
+  cost is subtracted from the bank, one of three randomized event occurs during the day.
       Random Event #1: A sickness occurs to an animal in the zoo.
           a) Pick an animal at random that will die.
           b) Remove one animal of that type from the exibit (dynmaic array in the zoo).
@@ -34,7 +34,7 @@ Different types of animals cost different prices, have different maintenace cost
           b) Add the bonus payoff for each tiger to the total payoff of the day as a reward.
       Random Event #3: A baby animal is born.
           a) Pick an animal at random to have a baby.
-          b) Before animal gives is born, check if there is an animal old enough to be a parent (age >=3),
+          b) Before animal gives birth, check if there is an animal old enough to be a parent (age >=3),
              then add babies to the zoo depending on the number of babies specific to the type of animal.
              If animal selected at random is not old enough, select another animal at random.
              If no animals are able to give birth to baby animals, program will skip the event.
@@ -44,10 +44,10 @@ Different types of animals cost different prices, have different maintenace cost
   After the random event, program calculates the profit for the day based on the # of animals and their payoff.
   If there is a bonus for the day, it is added to the profit. Before the day ends, player is asked if they want
   to purchase an adult animal. 
-      if yes, player is asked what type and cost is deducted from bank acct. Adult animals is 3 days old.
+      if yes, player is asked what type and cost is deducted from bank acct. Adult animals are 3 days old.
       if no, program continues.
       
-  At the end of each day, ask user if they want to continue to playing or end the game.
+  At the end of each day, ask user if they want to continue playing or end the game.
   If the user runs out of money, the user is notified of deliquent funds and the game ends.
 
 ***Project 3: Wrote a fantasy combat game using classes and polymorphism.
@@ -57,7 +57,7 @@ Different types of animals cost different prices, have different maintenace cost
   special abilites.
   
   Each combat is between 2 characters and ends with one character dying. Each round consists of two attacks,
-  one for each character. For each attach, attacher and defender both generate dice rolls. The type and
+  one for each character. For each attach, attacker and defender both generate dice rolls. The type and
   number of dice determines move. 
   
   The actual damage inflicted from the attacher onto the defender is calculated as follows:
@@ -75,8 +75,8 @@ Different types of animals cost different prices, have different maintenace cost
    Gameflow: The game is a one user two player game, so one user should be able to play and setup fighters
    for both teams.
    
-   When the game begins, the user us prompted to enter the number of fighters for both teams. After that,
-   for each fighter , the game should ask the user to choose the type of character, and enter a name for 
+   When the game begins, the user is prompted to enter the number of fighters for both teams. After that,
+   for each fighter, the game should ask the user to choose the type of character, and enter a name for 
    the fighter. 
    
    After user supplies a lineup of fighters for both teams, the tournament begins. The fighters fight the
@@ -101,12 +101,12 @@ Different types of animals cost different prices, have different maintenace cost
   John begins his quest in the parking garage where he is then prompted with 9 selections ranging from exploring the current room
   to moving to another room within the building. As John searches the room for each security code, if a code is found, it is stored in his container
   until all three are found. However each search of a room  deducts 1 hour from the time. John must also be careful and not perish 
-  before locating all 3 security codes as there are armed guards, hostages to save and interact with as well as boobie traps 
+  before locating all 3 security codes as there are armed guards, hostages to save and interact with, as well as boobie traps 
   throughout the tower.
   
   <img width="488" alt="Screen Shot 2021-06-29 at 6 25 16 PM" src="https://user-images.githubusercontent.com/37819992/123879996-622c4900-d907-11eb-99b3-f5f04bf2dd72.png">
   
-  If all three security codes are found before time expires, John saves the building and the people. If John does not find all
+  If all three security codes are found before time expires, John saves the building and the people inside. If John does not find all
   three security codes in time or perishes before doing so, the game ends with the building exploding along with everyone else who
   remained inside.
   
